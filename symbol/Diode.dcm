@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS14HE
+D DIODE SCHOTTKY 40V 1A SOD323HE
+F https://www.onsemi.com/pdf/datasheet/ss13he-d.pdf
+$ENDCMP
+#
+#End Doc Library
