@@ -4,4 +4,24 @@ $CMP C
 D Non-polaqrized capacitor
 $ENDCMP
 #
+$CMP C_0402_1005Metric
+D Generic capacitor 0402 (1005 metric)
+$ENDCMP
+#
+$CMP C_0603_1608Metric
+D Generic capacitor 0603 (1608 metric)
+$ENDCMP
+#
+$CMP C_0805_2012Metric
+D Generic capacitor 0805 (2012 metric)
+$ENDCMP
+#
+$CMP C_1206_3216Metric
+D Generic capacitor 1206 (3216 metric)
+$ENDCMP
+#
+$CMP C_1210_3225Metric
+D Generic capacitor 1210 (3225 metric)
+$ENDCMP
+#
 #End Doc Library
