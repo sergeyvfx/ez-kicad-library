@@ -1,0 +1,30 @@
+# Generic files to ignore
+.*
+.*.swp
+
+# Editors
+*~
+*.swp
+*.swo
+*#
+*.000
+*.bak
+*.bck
+*.tmp
+_autosave-*
+.vscode
+
+# ms-windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local patches
+/*.patch
+/*.diff
+
+# FreeCAD backup files.
+*.FCStd1
+
+# Blender backup files.
+*.blend?
