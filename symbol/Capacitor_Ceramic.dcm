@@ -4,6 +4,11 @@ $CMP C
 D Non-polaqrized capacitor
 $ENDCMP
 #
+$CMP CBR04C409B5GAC
+D CAP CER 4PF 50V C0G/NP0 0402
+F https://content.kemet.com/datasheets/KEM_C1030_CBR_SMD.pdf
+$ENDCMP
+#
 $CMP C_0402_1005Metric
 D Generic capacitor 0402 (1005 metric)
 $ENDCMP
