@@ -10,4 +10,9 @@ D CONN RCP USB3.1 TYPEC 24P SMD RA
 F https://www.molex.com/pdm_docs/ps/PS-105448-001.pdf
 $ENDCMP
 #
+$CMP F31S-1A7L1-11050
+D FLEX CONNECTOR, 0.50MM PITCH, HE
+F https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/flex/ffc_fpc_050mm_f31s.pdf
+$ENDCMP
+#
 #End Doc Library
