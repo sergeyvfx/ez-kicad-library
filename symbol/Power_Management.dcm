@@ -10,4 +10,9 @@ D IC REG CHARGE PUMP ADJ 8WSON
 F https://www.ti.com/lit/ds/symlink/lm27761.pdf
 $ENDCMP
 #
+$CMP TPS563231DRLR
+D POWER MANAGEMENT
+F https://www.ti.com/lit/ds/symlink/tps563231.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616258618453
+$ENDCMP
+#
 #End Doc Library
