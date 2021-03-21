@@ -1,0 +1,3 @@
+This STEP model came from DigiKey's model for 74437356047 (732-7203-1-ND).
+
+https://www.digikey.nl/product-detail/en/74437356047/732-7203-1-ND/5353183/

@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74437356047
+D FIXED IND 4.7UH 6.2A 34.2 MOHM
+F https://www.we-online.de/katalog/datasheet/74437356047.pdf
+$ENDCMP
+#
 $CMP ACP3225-102-2P-T000
 D CMC 1.5A 2LN 1 KOHM SMD
 F https://product.tdk.com/info/en/catalog/datasheets/cmf_commercial_power_acp3225_en.pdf
