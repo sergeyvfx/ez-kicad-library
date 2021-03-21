@@ -1,6 +1,40 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1N914BWT
+#
+DEF 1N914BWT D 0 40 N Y 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "1N914BWT" 0 -100 50 H V C CNN
+F2 "Diode:SOD-523" 10 150 50 H I C CNN
+F3 "" 10 150 50 H I C CNN
+F4 "DIODE GEN PURP 75V 200MA SOD523F" 0 0 50 H I C CNN "Description"
+F5 "Diode Standard 75V 200mA Surface Mount SOD-523F" 0 0 50 H I C CNN "Detailed Description"
+F6 "ON Semiconductor" 0 0 50 H I C CNN "Manufacturer"
+F7 "1N914BWT" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "1N914BWTCT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "Cut Tape (CT) " 0 0 50 H I C CNN "Packaging"
+F10 "Standard" 0 0 50 H I C CNN "Diode Type"
+F11 "75V" 0 0 50 H I C CNN "Voltage - DC Reverse (Vr) (Max)"
+F12 "20mA" 0 0 50 H I C CNN "Current - Average Rectified (Io)"
+F13 "1V @ 100mA" 0 0 50 H I C CNN "Voltage - Forward (Vf) (Max) @ If"
+F14 "Small Signal =< 200mA (Io), Any Speed" 0 0 50 H I C CNN "Speed"
+F15 "4ns" 0 0 50 H I C CNN "Reverse Recovery Time (trr)"
+F16 "5µA @ 75V" 0 0 50 H I C CNN "Current - Reverse Leakage @ Vr"
+F17 "4pF @ 0V, 1MHz" 0 0 50 H I C CNN "Capacitance @ Vr, F"
+F18 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F19 "SC-79, SOD-523F" 0 0 50 H I C CNN "Package / Case"
+F20 "SOD-523F" 0 0 50 H I C CNN "Supplier Device Package"
+F21 "-55°C ~ 150°C" 0 0 50 H I C CNN "Operating Temperature - Junction"
+F22 "1N914B" 0 0 50 H I C CNN "Base Part Number"
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 4 0 1 0 -50 0 50 50 50 -50 -50 0 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D
 #
 DEF D D 0 40 N Y 1 F N

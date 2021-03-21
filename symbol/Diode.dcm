@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N914BWT
+D DIODE GEN PURP 75V 200MA SOD523F
+F https://rocelec.widen.net/view/pdf/bnxdzepaue/ONSM-S-A0003584797-1.pdf?t.download=true&u=5oefqw
+$ENDCMP
+#
 $CMP SS14HE
 D DIODE SCHOTTKY 40V 1A SOD323HE
 F https://www.onsemi.com/pdf/datasheet/ss13he-d.pdf
