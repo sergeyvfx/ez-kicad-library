@@ -19,7 +19,7 @@ ENDDEF
 # CBR04C409B5GAC
 #
 DEF CBR04C409B5GAC C 0 40 N Y 1 F N
-F0 "C" 75 175 50 H V L BNN
+F0 "C" 50 200 50 H V L BNN
 F1 "CBR04C409B5GAC" -150 100 50 H I L BNN
 F2 "Capacitor_Ceramic:C_0402_1005Metric" -150 200 50 H I C CNN
 F3 "" -150 200 50 H I C CNN
@@ -28,7 +28,7 @@ F5 "4pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" 0 0 50 H I C 
 F6 "KEMET" 0 0 50 H I C CNN "Manufacturer"
 F7 "CBR04C409B5GAC" 0 0 50 H I C CNN "Manufacturer Part Number"
 F8 "399-13246-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
-F9 "4pF" 75 100 50 H I L BNN "Capacitance"
+F9 "4pF" 50 100 50 H V L BNN "Capacitance"
 F10 "CBR-SMD RF C0G" 0 0 50 H I C CNN "Series"
 F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
 F12 "±0.1pF" 0 0 50 H I C CNN "Tolerance"
@@ -134,7 +134,7 @@ F5 "10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" 0 0 50 H I C CNN "
 F6 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
 F7 "EMK212BB7106KG-T" 0 0 50 H I C CNN "Manufacturer Part Number"
 F8 "587-6139-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
-F9 "10µF" 75 100 50 H I L BNN "Capacitance"
+F9 "10µF" 75 100 50 H V L BNN "Capacitance"
 F10 "M" 0 0 50 H I C CNN "Series"
 F11 "Cut Tape (CT) " 0 0 50 H I C CNN "Packaging"
 F12 "±10%" 0 0 50 H I C CNN "Tolerance"
@@ -166,7 +166,7 @@ F5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" 0 0 50 H I C CNN 
 F6 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
 F7 "UMK105B7104KV-FR" 0 0 50 H I C CNN "Manufacturer Part Number"
 F8 "587-3498-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
-F9 "0.1µF" 75 100 50 H I L BNN "Capacitance"
+F9 "0.1µF" 75 100 50 H V L BNN "Capacitance"
 F10 "M" 0 0 50 H I C CNN "Series"
 F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
 F12 "±10%" 0 0 50 H I C CNN "Tolerance"
@@ -198,7 +198,7 @@ F5 "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)" 0 0 50 H I C CNN "
 F6 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
 F7 "UMK325AB7106KM-P" 0 0 50 H I C CNN "Manufacturer Part Number"
 F8 "587-6031-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
-F9 "10µF" 75 100 50 H I L BNN "Capacitance"
+F9 "10µF" 75 100 50 H V L BNN "Capacitance"
 F10 "M" 0 0 50 H I C CNN "Series"
 F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
 F12 "±10%" 0 0 50 H I C CNN "Tolerance"
