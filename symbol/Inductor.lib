@@ -220,4 +220,43 @@ X ~ 2 250 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# NR6028T150M
+#
+DEF NR6028T150M L 0 40 N Y 1 F N
+F0 "L" 0 200 50 H V C CNN
+F1 "NR6028T150M" 0 -50 50 H I C CNN
+F2 "Inductor:NR6028" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "FIXED IND 15UH 1.8A 123.5 MOHM" 0 0 50 H I C CNN "Description"
+F5 "15µH Shielded Wirewound Inductor 1.8A 123.5mOhm Max Nonstandard" 0 0 50 H I C CNN "Detailed Description"
+F6 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
+F7 "NR6028T150M" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "587-2630-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "NR" 0 0 50 H I C CNN "Series"
+F10 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
+F11 "Wirewound" 0 0 50 H I C CNN "Type"
+F12 "Ferrite" 0 0 50 H I C CNN "Material - Core"
+F13 "15µH" 0 100 50 H V C CNN "Inductance"
+F14 "±20%" 0 0 50 H I C CNN "Tolerance"
+F15 "1.8A" 0 0 50 H I C CNN "Current Rating (Amps)"
+F16 "1.6A" 0 0 50 H I C CNN "Current - Saturation (Isat)"
+F17 "Shielded" 0 0 50 H I C CNN "Shielding"
+F18 "123.5mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F19 "17MHz" 0 0 50 H I C CNN "Frequency - Self Resonant"
+F20 "-25°C ~ 120°C" 0 0 50 H I C CNN "Operating Temperature"
+F21 "100kHz" 0 0 50 H I C CNN "Inductance Frequency - Test"
+F22 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F23 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F24 "0.236\" L x 0.236\" W (6.00mm x 6.00mm)" 0 0 50 H I C CNN "Size / Dimension"
+F25 "0.110\" (2.80mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+X ~ 1 -250 0 50 R 50 50 1 1 P
+X ~ 2 250 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

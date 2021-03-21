@@ -25,4 +25,9 @@ D FIXED IND 22UH 790MA 444 MOHM
 F https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/LQx_Land-Patterns.pdf
 $ENDCMP
 #
+$CMP NR6028T150M
+D FIXED IND 15UH 1.8A 123.5 MOHM
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NR6028T150M%20%20&u=M
+$ENDCMP
+#
 #End Doc Library
