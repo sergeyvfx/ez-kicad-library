@@ -186,4 +186,36 @@ X ~ 2 150 0 115 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# UMK325AB7106KM-P
+#
+DEF UMK325AB7106KM-P C 0 40 N Y 1 F N
+F0 "C" 75 175 50 H V L BNN
+F1 "UMK325AB7106KM-P" -150 100 50 H I L BNN
+F2 "Capacitor_Ceramic:C_1210_3225Metric" -150 200 50 H I C CNN
+F3 "" -150 200 50 H I C CNN
+F4 "CAP CER 10UF 50V X7R 1210" 0 0 50 H I C CNN "Description"
+F5 "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)" 0 0 50 H I C CNN "Detailed Description"
+F6 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
+F7 "UMK325AB7106KM-P" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "587-6031-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "10µF" 75 100 50 H I L BNN "Capacitance"
+F10 "±10%" 0 0 50 H I C CNN "Tolerance"
+F11 "50V" 0 0 50 H I C CNN "Voltage - Rated"
+F12 "X7R" 0 0 50 H I C CNN "Temperature Coefficient"
+F13 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "SMPS Filtering" 0 0 50 H I C CNN "Applications"
+F15 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F16 "1210 (3225 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "0.126\" L x 0.098\" W (3.20mm x 2.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F18 "0.110\" (2.80mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F19 "M" 0 0 50 H I C CNN "Series"
+F20 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
+DRAW
+P 2 0 1 20 -25 100 -25 -100 N
+P 2 0 1 20 25 100 25 -100 N
+X ~ 1 -150 0 115 R 50 50 1 1 P
+X ~ 2 150 0 115 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

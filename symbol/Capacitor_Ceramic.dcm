@@ -39,4 +39,9 @@ D CAP CER 0.1UF 50V X7R 0402
 F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK105B7104KV-FR%20%20&u=M
 $ENDCMP
 #
+$CMP UMK325AB7106KM-P
+D CAP CER 10UF 50V X7R 1210
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325AB7106KM-P%20&u=M
+$ENDCMP
+#
 #End Doc Library
