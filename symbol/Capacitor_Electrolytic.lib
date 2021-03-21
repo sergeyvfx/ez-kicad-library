@@ -1,6 +1,45 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# A768KE686M1GLAE038
+#
+DEF A768KE686M1GLAE038 C 0 40 N Y 1 F N
+F0 "C" 100 150 50 H V L BNN
+F1 "A768KE686M1GLAE038" -150 100 50 H I L BNN
+F2 "Capacitor_Electrolytic:CP_Elec_KEMET_8mm" -150 200 50 H I C CNN
+F3 "" -150 200 50 H I C CNN
+F4 "CAP ALUM POLY 68UF 20% 40V SMD" 0 0 50 H I C CNN "Description"
+F5 "68µF 40V Aluminum - Polymer Capacitors Radial, Can - SMD 38mOhm 2000 Hrs @ 125°C" 0 0 50 H I C CNN "Detailed Description"
+F6 "KEMET" 0 0 50 H I C CNN "Manufacturer"
+F7 "A768KE686M1GLAE038" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "399-A768KE686M1GLAE038CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "A768" 0 0 50 H I C CNN "Series"
+F10 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
+F11 "Polymer" 0 0 50 H I C CNN "Type"
+F12 "68µF" 100 50 50 H V L BNN "Capacitance"
+F13 "±20%" 0 0 50 H I C CNN "Tolerance"
+F14 "40V" 0 0 50 H I C CNN "Voltage - Rated"
+F15 "38mOhm" 0 0 50 H I C CNN "ESR (Equivalent Series Resistance)"
+F16 "2000 Hrs @ 125°C" 0 0 50 H I C CNN "Lifetime @ Temp."
+F17 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "General Purpose" 0 0 50 H I C CNN "Applications"
+F19 "67.5mA @ 120Hz" 0 0 50 H I C CNN "Ripple Current @ Low Frequency"
+F20 "1.35A @ 100kHz" 0 0 50 H I C CNN "Ripple Current @ High Frequency"
+F21 "0.315\" Dia (8.00mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "0.236\" (6.00mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F23 "0.327\" L x 0.327\" W (8.30mm x 8.30mm)" 0 0 50 H I C CNN "Surface Mount Land Size"
+F24 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F25 "Radial, Can - SMD" 0 0 50 H I C CNN "Package / Case"
+DRAW
+S -40 90 -20 -90 0 1 0 N
+S 40 90 20 -90 0 1 0 F
+P 2 0 1 0 -115 65 -75 65 N
+P 2 0 1 0 -95 85 -95 45 N
+X ~ 1 -150 0 110 R 50 50 1 1 P
+X ~ 2 150 0 110 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CP
 #
 DEF CP C 0 40 N Y 1 F N
