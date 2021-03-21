@@ -77,6 +77,45 @@ X ~ 4 250 -250 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# ASPI-7318-4R7M-T
+#
+DEF ASPI-7318-4R7M-T L 0 40 N Y 1 F N
+F0 "L" 0 200 50 H V C CNN
+F1 "ASPI-7318-4R7M-T" 0 -50 50 H I C CNN
+F2 "Inductor:ASPI-7318" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "FIXED IND 4.7UH 6.2A 34.2 MOHM" 0 0 50 H I C CNN "Description"
+F5 "4.7µH Shielded Molded Inductor 6.2A 34.2mOhm Max Nonstandard" 0 0 50 H I C CNN "Detailed Description"
+F6 "Abracon LLC" 0 0 50 H I C CNN "Manufacturer"
+F7 "ASPI-7318-4R7M-T" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "ASPI-7318-4R7M-TCT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "https://abracon.com/Support/PackageDrawing/Magnetics/ASPI-7318.PDF" 0 0 50 H I C CNN "Drawing"
+F10 "ASPI-7318" 0 0 50 H I C CNN "Series"
+F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
+F12 "Wirewound" 0 0 50 H I C CNN "Type"
+F13 "Ferrite" 0 0 50 H I C CNN "Material - Core"
+F14 "4.7µH" 0 100 50 H V C CNN "Inductance"
+F15 "±20%" 0 0 50 H I C CNN "Tolerance"
+F16 "5A" 0 0 50 H I C CNN "Current Rating (Amps)"
+F17 "8A" 0 0 50 H I C CNN "Current - Saturation (Isat)"
+F18 "Shielded" 0 0 50 H I C CNN "Shielding"
+F19 "40mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F20 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F21 "200kHz" 0 0 50 H I C CNN "Inductance Frequency - Test"
+F22 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F23 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F24 "0.287\" L x 0.268\" W (7.30mm x 6.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F25 "0.118\" (3.00mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+X ~ 1 -250 0 50 R 50 50 1 1 P
+X ~ 2 250 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BLM15PG100SN1D
 #
 DEF BLM15PG100SN1D FB 0 40 N Y 1 F N
