@@ -29,4 +29,14 @@ $CMP C_1210_3225Metric
 D Generic capacitor 1210 (3225 metric)
 $ENDCMP
 #
+$CMP EMK212BB7106KG-T
+D CAP CER 10UF 16V X7R 0805
+F https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf
+$ENDCMP
+#
+$CMP UMK105B7104KV-FR
+D CAP CER 0.1UF 50V X7R 0402
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK105B7104KV-FR%20%20&u=M
+$ENDCMP
+#
 #End Doc Library

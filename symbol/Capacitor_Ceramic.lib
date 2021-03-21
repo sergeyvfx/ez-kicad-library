@@ -28,7 +28,17 @@ F5 "4pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" 0 0 50 H I C 
 F6 "KEMET" 0 0 50 H I C CNN "Manufacturer"
 F7 "CBR04C409B5GAC" 0 0 50 H I C CNN "Manufacturer Part Number"
 F8 "399-13246-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
-F9 "4 pF" 75 100 50 H V L BNN "Capacitance"
+F9 "4pF" 75 100 50 H I L BNN "Capacitance"
+F10 "±0.1pF" 0 0 50 H I C CNN "Tolerance"
+F11 "50V" 0 0 50 H I C CNN "Voltage - Rated"
+F12 "C0G, NP0" 0 0 50 H I C CNN "Temperature Coefficient"
+F13 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "High Q, Low Loss, Ultra Low ESR" 0 0 50 H I C CNN "Features"
+F15 "RF, Microwave, High Frequency" 0 0 50 H I C CNN "Applications"
+F16 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F17 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F18 "CBR-SMD RF C0G" 0 0 50 H I C CNN "Series"
+F19 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
 DRAW
 P 2 0 1 20 -25 100 -25 -100 N
 P 2 0 1 20 25 100 25 -100 N
@@ -104,6 +114,70 @@ F0 "C" -150 200 50 H V L BNN
 F1 "C_1210_3225Metric" -150 100 50 H V L BNN
 F2 "Capacitor_Ceramic:C_1210_3225Metric" -150 200 50 H I C CNN
 F3 "" -150 200 50 H I C CNN
+DRAW
+P 2 0 1 20 -25 100 -25 -100 N
+P 2 0 1 20 25 100 25 -100 N
+X ~ 1 -150 0 115 R 50 50 1 1 P
+X ~ 2 150 0 115 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EMK212BB7106KG-T
+#
+DEF EMK212BB7106KG-T C 0 40 N Y 1 F N
+F0 "C" 75 175 50 H V L BNN
+F1 "EMK212BB7106KG-T" -150 100 50 H I L BNN
+F2 "Capacitor_Ceramic:C_0805_2012Metric" -150 200 50 H I C CNN
+F3 "" -150 200 50 H I C CNN
+F4 "CAP CER 10UF 16V X7R 0805" 0 0 50 H I C CNN "Description"
+F5 "10µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" 0 0 50 H I C CNN "Detailed Description"
+F6 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
+F7 "EMK212BB7106KG-T" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "587-6139-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "10µF" 75 100 50 H I L BNN "Capacitance"
+F10 "±10%" 0 0 50 H I C CNN "Tolerance"
+F11 "16V" 0 0 50 H I C CNN "Voltage - Rated"
+F12 "X7R" 0 0 50 H I C CNN "Temperature Coefficient"
+F13 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "SMPS Filtering" 0 0 50 H I C CNN "Applications"
+F15 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F18 "0.053\" (1.35mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F19 "M" 0 0 50 H I C CNN "Series"
+F20 "Cut Tape (CT) " 0 0 50 H I C CNN "Packaging"
+DRAW
+P 2 0 1 20 -25 100 -25 -100 N
+P 2 0 1 20 25 100 25 -100 N
+X ~ 1 -150 0 115 R 50 50 1 1 P
+X ~ 2 150 0 115 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# UMK105B7104KV-FR
+#
+DEF UMK105B7104KV-FR C 0 40 N Y 1 F N
+F0 "C" 75 175 50 H V L BNN
+F1 "UMK105B7104KV-FR" -150 100 50 H I L BNN
+F2 "Capacitor_Ceramic:C_0402_1005Metric" -150 200 50 H I C CNN
+F3 "" -150 200 50 H I C CNN
+F4 "CAP CER 0.1UF 50V X7R 0402" 0 0 50 H I C CNN "Description"
+F5 "0.1µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" 0 0 50 H I C CNN "Detailed Description"
+F6 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
+F7 "UMK105B7104KV-FR" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "587-3498-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "0.1µF" 75 100 50 H I L BNN "Capacitance"
+F10 "±10%" 0 0 50 H I C CNN "Tolerance"
+F11 "16V" 0 0 50 H I C CNN "Voltage - Rated"
+F12 "X7R" 0 0 50 H I C CNN "Temperature Coefficient"
+F13 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "SMPS Filtering" 0 0 50 H I C CNN "Applications"
+F15 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F16 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F18 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F19 "M" 0 0 50 H I C CNN "Series"
+F20 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
 DRAW
 P 2 0 1 20 -25 100 -25 -100 N
 P 2 0 1 20 25 100 25 -100 N
