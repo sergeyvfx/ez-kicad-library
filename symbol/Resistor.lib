@@ -36,6 +36,40 @@ X ~ 2 -100 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CRGCQ0402F82K
+#
+DEF CRGCQ0402F82K R 0 40 N Y 1 F N
+F0 "R" -50 50 50 H V L BNN
+F1 "CRGCQ0402F82K" -50 0 50 H I L BNN
+F2 "Resistor:R_0402_1005Metric" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "CRGCQ 0402 82K 1%" 0 0 50 H I C CNN "Description"
+F5 "8.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" 0 0 50 H I C CNN "Detailed Description"
+F6 "TE Connectivity Passive Product" 0 0 50 H I C CNN "Manufacturer"
+F7 "CRGCQ0402F82K" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "A129650CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "82k" -50 -50 50 H V L BNN "Resistance"
+F10 "CRGCQ" 0 0 50 H I C CNN "Series"
+F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
+F12 "±1%" 0 0 50 H I C CNN "Tolerance"
+F13 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F14 "Thick Film" 0 0 50 H I C CNN "Composition"
+F15 "Automotive AEC-Q200, Moisture Resistant" 0 0 50 H I C CNN "Features"
+F16 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F17 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "AEC-Q200" 0 0 50 H I C CNN "Ratings"
+F20 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F21 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F23 "2" 0 0 50 H I C CNN "Number of Terminations"
+DRAW
+P 5 0 1 10 -140 100 -60 100 -60 -100 -140 -100 -140 100 N
+X ~ 1 -100 150 50 D 50 50 1 1 P
+X ~ 2 -100 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CRGCQ0402F8K2
 #
 DEF CRGCQ0402F8K2 R 0 40 N Y 1 F N
