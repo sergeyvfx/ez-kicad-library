@@ -71,6 +71,7 @@ Content of `sym-lib-table` file:
   (lib (name Power_Management)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Power_Management.lib)(options "")(descr ""))
   (lib (name Power_Supervisor)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Power_Supervisor.lib)(options "")(descr ""))
   (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Resistor.lib)(options "")(descr ""))
+  (lib (name Switches)(type Legacy)(uri D:/Projects/Electronics/IR-Volume-Control/library/symbol/Switches.lib)(options "")(descr ""))
   (lib (name Transistor_BJT)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Transistor_BJT.lib)(options "")(descr ""))
   (lib (name Transistor_FET)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Transistor_FET.lib)(options "")(descr ""))
 </pre>
@@ -93,4 +94,5 @@ Content of `fp-lib-table` file:
   (lib (name Package_SON)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Package_SON.pretty)(options "")(descr ""))
   (lib (name Package_TO_SOT)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Package_TO_SOT.pretty)(options "")(descr ""))
   (lib (name Resistor)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Resistor.pretty)(options "")(descr ""))
+  (lib (name Switches)(type KiCad)(uri D:/Projects/Electronics/IR-Volume-Control/library/footprint/Switches.pretty)(options "")(descr ""))
 </pre>

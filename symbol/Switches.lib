@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MCSLPT4644B1TR
+#
+DEF MCSLPT4644B1TR SW 0 40 N N 1 F N
+F0 "SW" 0 250 50 H V C CNN
+F1 "MCSLPT4644B1TR" 0 150 50 H V C CNN
+F2 "Switches:MCSLPT4644B1TR" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2337234&DocType=Customer+Drawing&DocLang=English" 0 0 50 H I C CNN "Drawing"
+F5 "TACT MICRO JB 4.6X4.4X0.55 P3.5" 0 0 50 H I C CNN "Description"
+F6 "Tactile Switch SPST-NO Top Actuated Surface Mount" 0 0 50 H I C CNN "Detailed Description"
+F7 "TE Connectivity ALCOSWITCH Switches" 0 0 50 H I C CNN "Manufacturer"
+F8 "MCSLPT4644B1TR" 0 0 50 H I C CNN "Manufacturer Part Number"
+F9 "450-3379-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F10 "LPT" 0 0 50 H I C CNN "Series"
+F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
+F12 "SPST-NO" 0 0 50 H I C CNN "Circuit"
+F13 "Off-Mom" 0 0 50 H I C CNN "Switch Function"
+F14 "0.05A @ 12VDC" 0 0 50 H I C CNN "Contact Rating @ Voltage"
+F15 "Flush" 0 0 50 H I C CNN "Actuator Type"
+F16 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F17 "0.55mm" 0 0 50 H I C CNN "Actuator Height off PCB, Vertical"
+F18 "Top Actuated" 0 0 50 H I C CNN "Actuator Orientation"
+F19 "J Lead" 0 0 50 H I C CNN "Termination Style"
+F20 "4.60mm x 4.40mm" 0 0 50 H I C CNN "Outline"
+F21 "Non-Illuminated" 0 0 50 H I C CNN "Illumination"
+F22 "100gf" 0 0 50 H I C CNN "Operating Force"
+F23 "-20°C ~ 70°C" 0 0 50 H I C CNN "Operating Temperature"
+F24 "Polyamide (PA), Nylon" 0 0 50 H I C CNN "Actuator Material"
+F25 "0.20mm" 0 0 50 H I C CNN "Switch Travel"
+F26 "1,000,000 Cycles" 0 0 50 H I C CNN "Mechanical Life"
+F27 "MCSLPT" 0 0 50 H I C CNN "Base Part Number"
+DRAW
+C -100 0 15 0 1 0 N
+C 100 0 15 0 1 0 N
+P 2 0 1 0 80 90 -85 10 N
+X 1 1 -200 0 85 R 50 50 1 1 P
+X 2 2 200 0 85 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SPST
+#
+DEF Switch_SPST SW 0 40 N N 1 F N
+F0 "SW" 0 250 50 H V C CNN
+F1 "Switch_SPST" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 0 15 0 1 0 N
+C 100 0 15 0 1 0 N
+P 2 0 1 0 80 90 -85 10 N
+X 1 1 -200 0 85 R 50 50 1 1 P
+X 2 2 200 0 85 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

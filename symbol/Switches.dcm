@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCSLPT4644B1TR
+D TACT MICRO JB 4.6X4.4X0.55 P3.5
+F https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20Alcoswitch%20PDFs/2337232-1_DS.pdf
+$ENDCMP
+#
+#End Doc Library
