@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5977703607F
+D LED GREEN/RED CLEAR 1206 SMD
+F http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf
+$ENDCMP
+#
 $CMP HSMG-C170
 D LED GREEN DIFFUSED CHIP SMD
 F https://docs.broadcom.com/doc/AV02-0551EN
