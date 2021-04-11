@@ -1,19 +1,51 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CRGCQ0402F1K0
+# CRG0402ZR
 #
-DEF CRGCQ0402F1K0 R 0 40 N Y 1 F N
+DEF CRG0402ZR R 0 40 N Y 1 F N
 F0 "R" -50 50 50 H V L BNN
-F1 "CRGCQ0402F1K0" -50 0 50 H I L BNN
+F1 "CRG0402ZR" -50 0 50 H I L BNN
 F2 "Resistor:R_0402_1005Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "CRGCQ 0402 1K0 1%" 0 0 50 H I C CNN "Description"
-F5 "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" 0 0 50 H I C CNN "Detailed Description"
+F4 "RES SMD 0 OHM JUMPER 1/16W 0402" 0 0 50 H I C CNN "Description"
+F5 "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)  Thick Film" 0 0 50 H I C CNN "Detailed Description"
 F6 "TE Connectivity Passive Product" 0 0 50 H I C CNN "Manufacturer"
-F7 "CRGCQ0402F1K0" 0 0 50 H I C CNN "Manufacturer Part Number"
-F8 "A129627CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
-F9 "1k" -50 -50 50 H V L BNN "Resistance"
+F7 "CRG0402ZR" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "A106025CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "0 Ohms" -50 -50 50 H V L BNN "Resistance"
+F10 "CRG" 0 0 50 H I C CNN "Series"
+F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
+F12 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F13 "Thick Film" 0 0 50 H I C CNN "Composition"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F17 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F18 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F19 "2" 0 0 50 H I C CNN "Number of Terminations"
+F20 "CRG0402" 0 0 50 H I C CNN "Base Part Number"
+F21 "Jumper" 0 0 50 H I C CNN "Tolerance"
+DRAW
+P 5 0 1 10 -140 100 -60 100 -60 -100 -140 -100 -140 100 N
+X ~ 1 -100 150 50 D 50 50 1 1 P
+X ~ 2 -100 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CRGCQ0402F10K
+#
+DEF CRGCQ0402F10K R 0 40 N Y 1 F N
+F0 "R" -50 50 50 H V L BNN
+F1 "CRGCQ0402F10K" -50 0 50 H I L BNN
+F2 "Resistor:R_0402_1005Metric" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "CRGCQ 0402 10K 1%" 0 0 50 H I C CNN "Description"
+F5 "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" 0 0 50 H I C CNN "Detailed Description"
+F6 "TE Connectivity Passive Product" 0 0 50 H I C CNN "Manufacturer"
+F7 "CRGCQ0402F10K" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "A129639CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "10k" -50 -50 50 H V L BNN "Resistance"
 F10 "CRGCQ" 0 0 50 H I C CNN "Series"
 F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
 F12 "±1%" 0 0 50 H I C CNN "Tolerance"
@@ -36,19 +68,19 @@ X ~ 2 -100 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CRGCQ0402F10K
+# CRGCQ0402F1K0
 #
-DEF CRGCQ0402F10K R 0 40 N Y 1 F N
+DEF CRGCQ0402F1K0 R 0 40 N Y 1 F N
 F0 "R" -50 50 50 H V L BNN
-F1 "CRGCQ0402F10K" -50 0 50 H I L BNN
+F1 "CRGCQ0402F1K0" -50 0 50 H I L BNN
 F2 "Resistor:R_0402_1005Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "CRGCQ 0402 10K 1%" 0 0 50 H I C CNN "Description"
-F5 "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" 0 0 50 H I C CNN "Detailed Description"
+F4 "CRGCQ 0402 1K0 1%" 0 0 50 H I C CNN "Description"
+F5 "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" 0 0 50 H I C CNN "Detailed Description"
 F6 "TE Connectivity Passive Product" 0 0 50 H I C CNN "Manufacturer"
-F7 "CRGCQ0402F10K" 0 0 50 H I C CNN "Manufacturer Part Number"
-F8 "A129639CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
-F9 "10k" -50 -50 50 H V L BNN "Resistance"
+F7 "CRGCQ0402F1K0" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "A129627CT-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F9 "1k" -50 -50 50 H V L BNN "Resistance"
 F10 "CRGCQ" 0 0 50 H I C CNN "Series"
 F11 "Cut Tape (CT)" 0 0 50 H I C CNN "Packaging"
 F12 "±1%" 0 0 50 H I C CNN "Tolerance"
