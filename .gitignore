@@ -28,3 +28,6 @@ Desktop.ini
 
 # Blender backup files.
 *.blend?
+
+# KiCAD cache
+fp-info-cache

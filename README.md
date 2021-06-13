@@ -52,6 +52,7 @@ The library folder is supposed to be a git module to this repository.
 
 Content of `sym-lib-table` file:
 <pre>
+(sym_lib_table
   (lib (name Amplifier_Operational)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Amplifier_Operational.lib)(options "")(descr ""))
   (lib (name Capacitor_Ceramic)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Capacitor_Ceramic.lib)(options "")(descr ""))
   (lib (name Capacitor_Electrolytic)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Capacitor_Electrolytic.lib)(options "")(descr ""))
@@ -59,6 +60,7 @@ Content of `sym-lib-table` file:
   (lib (name Connector_Battery)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_Battery.lib)(options "")(descr ""))
   (lib (name Connector_Data)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_Data.lib)(options "")(descr ""))
   (lib (name Connector_Generic)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name Connector_RF)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_RF.lib)(options "")(descr ""))
   (lib (name Crystal)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Crystal.lib)(options "")(descr ""))
   (lib (name Diode)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Diode.lib)(options "")(descr ""))
   (lib (name Inductor)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Inductor.lib)(options "")(descr ""))
@@ -74,10 +76,12 @@ Content of `sym-lib-table` file:
   (lib (name Switches)(type Legacy)(uri D:/Projects/Electronics/IR-Volume-Control/library/symbol/Switches.lib)(options "")(descr ""))
   (lib (name Transistor_BJT)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Transistor_BJT.lib)(options "")(descr ""))
   (lib (name Transistor_FET)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Transistor_FET.lib)(options "")(descr ""))
+)
 </pre>
 
 Content of `fp-lib-table` file:
 <pre>
+(fp_lib_table
   (lib (name Interface_Optical)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Interface_Optical.pretty)(options "")(descr ""))
   (lib (name Capacitor_Ceramic)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Capacitor_Ceramic.pretty)(options "")(descr ""))
   (lib (name Capacitor_Electrolytic)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Capacitor_Electrolytic.pretty)(options "")(descr ""))
@@ -85,6 +89,7 @@ Content of `fp-lib-table` file:
   (lib (name Connector_Battery)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Connector_Battery.pretty)(options "")(descr ""))
   (lib (name Connector_Data)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Connector_Data.pretty)(options "")(descr ""))
   (lib (name Connector_Generic)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Connector_Generic.pretty)(options "")(descr ""))
+  (lib (name Connector_RF)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Connector_RF.pretty)(options "")(descr ""))
   (lib (name Crystal)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Crystal.pretty)(options "")(descr ""))
   (lib (name Diode)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Diode.pretty)(options "")(descr ""))
   (lib (name Inductor)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Inductor.pretty)(options "")(descr ""))
@@ -95,4 +100,5 @@ Content of `fp-lib-table` file:
   (lib (name Package_TO_SOT)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Package_TO_SOT.pretty)(options "")(descr ""))
   (lib (name Resistor)(type KiCad)(uri ${KIPRJMOD}/../../library/footprint/Resistor.pretty)(options "")(descr ""))
   (lib (name Switches)(type KiCad)(uri D:/Projects/Electronics/IR-Volume-Control/library/footprint/Switches.pretty)(options "")(descr ""))
+)
 </pre>

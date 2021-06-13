@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Conn_Coaxial
+#
+DEF Conn_Coaxial J 0 40 N N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_Coaxial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 75 1637 0 0 1 10 N -72 21 75 0
+A 0 0 75 -1645 0 0 1 10 N -72 -20 76 0
+C 0 0 25 0 1 10 N
+P 2 0 1 0 -25 0 -125 0 N
+P 2 0 1 0 0 -75 0 -100 N
+X Core 1 -225 0 100 R 50 50 1 1 P
+X Shield 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_Coaxial_Power
+#
+DEF Conn_Coaxial_Power J 0 40 N N 1 F N
+F0 "J" 125 150 50 H V L BNN
+F1 "Conn_Coaxial_Power" 125 50 50 H V L BNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+A 0 0 75 737 -900 0 1 10 N 21 72 0 -75
+A 0 0 75 1055 -900 0 1 10 N -20 72 0 -76
+C 0 0 25 0 1 10 F
+P 2 0 1 0 0 -100 0 -75 N
+P 2 0 1 0 0 25 0 125 N
+X Core 1 0 225 100 D 50 50 1 1 P
+X Shield 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
