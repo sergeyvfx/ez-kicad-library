@@ -62,7 +62,7 @@ Content of `sym-lib-table` file:
   (lib (name Connector_Generic)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_Generic.lib)(options "")(descr ""))
   (lib (name Connector_RF)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_RF.lib)(options "")(descr ""))
   (lib (name Crystal)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Crystal.lib)(options "")(descr ""))
-  (lib (name Diode)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Diode.lib)(options "")(descr ""))
+  (lib (name Diode)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Diode.kicad_sym)(options "")(descr ""))
   (lib (name Inductor)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Inductor.lib)(options "")(descr ""))
   (lib (name Interface_Optical)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Interface_Optical.lib)(options "")(descr ""))
   (lib (name Interface_USB)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Interface_USB.lib)(options "")(descr ""))
