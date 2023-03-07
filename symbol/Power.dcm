@@ -5,6 +5,11 @@ D Power symbol creates a global label with name "+12V"
 K power-flag
 $ENDCMP
 #
+$CMP +1V2
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
 $CMP +2V7
 D Power symbol creates a global label with name "+2V7"
 K power-flag
@@ -37,6 +42,11 @@ $ENDCMP
 #
 $CMP VSNK
 D Power symbol creates a global label with name "VSNK"
+K power-flag
+$ENDCMP
+#
+$CMP VBUS
+D Power symbol creates a global label with name "VBUS"
 K power-flag
 $ENDCMP
 #
