@@ -5,4 +5,9 @@ D IC USB CONTROLLER I2C 24QFN
 F https://www.st.com/resource/en/datasheet/stusb4500.pdf
 $ENDCMP
 #
+$CMP STUSB4500LQTR
+D IC USB CONTROLLER I2C 24QFN
+F https://www.st.com/resource/en/datasheet/stusb4500l.pdf
+$ENDCMP
+#
 #End Doc Library
