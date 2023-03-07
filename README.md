@@ -54,7 +54,7 @@ Content of `sym-lib-table` file:
 <pre>
 (sym_lib_table
   (lib (name Amplifier_Operational)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Amplifier_Operational.lib)(options "")(descr ""))
-  (lib (name Capacitor_Ceramic)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Capacitor_Ceramic.lib)(options "")(descr ""))
+  (lib (name Capacitor_Ceramic)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Capacitor_Ceramic.kicad_sym)(options "")(descr ""))
   (lib (name Capacitor_Electrolytic)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Capacitor_Electrolytic.lib)(options "")(descr ""))
   (lib (name Connector_Audio)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_Audio.lib)(options "")(descr ""))
   (lib (name Connector_Battery)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Connector_Battery.lib)(options "")(descr ""))
@@ -72,7 +72,7 @@ Content of `sym-lib-table` file:
   (lib (name Power)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Power.lib)(options "")(descr ""))
   (lib (name Power_Management)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Power_Management.lib)(options "")(descr ""))
   (lib (name Power_Supervisor)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Power_Supervisor.lib)(options "")(descr ""))
-  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Resistor.lib)(options "")(descr ""))
+  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Resistor.kicad_sym)(options "")(descr ""))
   (lib (name Switches)(type Legacy)(uri D:/Projects/Electronics/IR-Volume-Control/library/symbol/Switches.lib)(options "")(descr ""))
   (lib (name Transistor_BJT)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Transistor_BJT.lib)(options "")(descr ""))
   (lib (name Transistor_FET)(type Legacy)(uri ${KIPRJMOD}/../../library/symbol/Transistor_FET.lib)(options "")(descr ""))
