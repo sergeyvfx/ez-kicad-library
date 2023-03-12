@@ -46,7 +46,7 @@
         (name "EP" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at -8.89 -5.08 0) (length 2.54)
+      (pin input line (at -8.89 -5.08 0) (length 2.54)
         (name "TMR" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
