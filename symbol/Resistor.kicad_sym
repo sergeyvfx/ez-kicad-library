@@ -1104,7 +1104,7 @@
     (property "Digi-Key Part Number" "A140106CT-ND" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "RES SMD 49.9KOHM 0.1% 1/16W 0402" (at 0 0 0)
+    (property "ki_description" "RES 1.13 KOHMS 0.1% 1/16W 0402" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "RQ73C1E1K13BTD_0_1"
