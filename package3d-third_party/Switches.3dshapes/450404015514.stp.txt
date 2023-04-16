@@ -1,0 +1,3 @@
+Step file for the 450404015514 switch.
+Downloaded from the Würth Elektronik website:
+  https://www.we-online.com/en/components/products/SLSU_6_7X_2_7_SMD_HORIZONTAL
