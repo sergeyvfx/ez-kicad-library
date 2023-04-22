@@ -278,6 +278,10 @@
         (stroke (width 0) (type solid))
         (fill (type background))
       )
+      (arc (start -1.27 -10.1759) (mid 0 -11.4301) (end 1.27 -10.1759)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -11.43 -44.45)
@@ -374,8 +378,39 @@
         (stroke (width 0) (type solid))
         (fill (type none))
       )
+      (arc (start 1.27 -5.08) (mid 0 -3.8258) (end -1.27 -5.08)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
     )
     (symbol "1054500101_1_1"
+      (polyline
+        (pts
+          (xy -1.27 -5.08)
+          (xy -1.27 -10.16)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -5.08)
+          (xy 0 -10.16)
+        )
+        (stroke (width 0.8) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -10.16)
+          (xy 1.27 -5.08)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (text "Type-C" (at 0 -16.51 900)
+        (effects (font (size 1.27 1.27)))
+      )
       (pin power_in line (at 16.51 -34.29 180) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
