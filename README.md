@@ -57,6 +57,7 @@ Content of `sym-lib-table` file:
   (lib (name "Amplifier_Operational")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Amplifier_Operational.kicad_sym")(options "")(descr ""))
   (lib (name "Capacitor_Ceramic")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Capacitor_Ceramic.kicad_sym")(options "")(descr ""))
   (lib (name "Capacitor_Electrolytic")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Capacitor_Electrolytic.kicad_sym")(options "")(descr ""))
+  (lib (name "Circuit_Protection")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Circuit_Protection.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Audio")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Connector_Audio.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Battery")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Connector_Battery.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Data")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Connector_Data.kicad_sym")(options "")(descr ""))
