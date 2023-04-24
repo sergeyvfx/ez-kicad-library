@@ -1,6 +1,6 @@
 (footprint "HSMx-C280" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -0.762) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4f91771f-02e4-43f4-b8bc-0df020387116)
