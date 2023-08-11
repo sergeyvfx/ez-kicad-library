@@ -1,0 +1,24 @@
+(footprint "9774040151R" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -4.064 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 548bd2a2-b92c-43cc-b472-32c69d1e226a)
+  )
+  (fp_text value "9774040151R" (at 0 4.318 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 36b54d05-a238-4968-b7cf-85b6337d9451)
+  )
+  (fp_text user "${REFERENCE}" (at 0 5.818 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e146ebeb-5cbb-42df-b708-6f43db561431)
+  )
+  (fp_circle (center 0 0) (end 3.175 0)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (tstamp ad7d5054-d039-4f77-8415-bcf653ba6427))
+  (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers "*.Cu" "*.Mask") (tstamp 6d4a438b-07cc-48d9-a2e7-054a2e843730))
+  (model "${KIPRJMOD}/../../library/package3d-third_party/Mechanical.3dshapes/9774040151R.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
