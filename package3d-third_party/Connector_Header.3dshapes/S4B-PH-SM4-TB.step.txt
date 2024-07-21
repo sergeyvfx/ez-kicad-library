@@ -1,0 +1,7 @@
+This STEP model came from DigiKey's model for S4B-PH-SM4-TB (455-S4B-PH-SM4-TBCT-ND).
+
+https://www.digikey.nl/en/products/detail/jst-sales-america-inc/S4B-PH-SM4-TB/926657
+
+The CAD model is downloaded from SnapEDA:
+
+    https://www.snapeda.com/parts/S4B-PH-SM4-TB/JST%20Sales/view-part/?ref=search&t=S4B-PH-SM4-TB
