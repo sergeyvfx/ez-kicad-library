@@ -1,1697 +1,4852 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "CPF-A-0402B200RE" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "200" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CPF-A-0402B200RE" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "1712-CPF-A-0402B200RECT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "200 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES SMD 200 OHM 0.1% 1/16W 040202" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CPF-A-0402B200RE_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CPF-A-0402B200RE_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CPF-A-0402B49K9E" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "49.9k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "49.9 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CPF-A-0402B49K9E" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "1712-CPF-A-0402B49K9ECT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES SMD 49.9KOHM 0.1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CPF-A-0402B49K9E_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CPF-A-0402B49K9E_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CPF0402B499KE1" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "499k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "499 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Product Number" "CPF0402B499KE1" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "1712-CPF0402B499KE1CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "CPF 0402 499K 0.1% 25PPM 1K RL" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CPF0402B499KE1_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CPF0402B499KE1_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CPF0402B5K1E1" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "5.1k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "5.1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Product Number" "CPF0402B5K1E1" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A102921CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES SMD 5.1K OHM 0.1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CPF0402B5K1E1_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CPF0402B5K1E1_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRG0402F20K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "20k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "20 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Product Number" "CRG0402F20K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "1712-CRG0402F20KCT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES SMD 20K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRG0402F20K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRG0402F20K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRG0402F36K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "36k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "36 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Product Number" "CRG0402F36K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "1712-CRG0402F36KCT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "RES SMD 36K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic resistor 0402 (1005 metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRG0402F36K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRG0402F36K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRG0402ZR" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "CRG0402ZR" (at -1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "RES SMD 0 OHM JUMPER 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)  Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRG0402ZR" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A106025CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "0 Ohms" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Series" "CRG" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Packaging" "Cut Tape (CT)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power (Watts)" "0.063W, 1/16W" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Composition" "Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Operating Temperature" "-55°C ~{} 155°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package / Case" "0402 (1005 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Supplier Device Package" "0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height - Seated (Max)" "0.016\" (0.40mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Number of Terminations" "2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Base Part Number" "CRG0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "Jumper" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES SMD 0 OHM JUMPER 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRG0402ZR_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRG0402ZR_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F100K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "100k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F100K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129651CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 100K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F100K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F100K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F100R" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "100" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F100R" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129615CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 100 OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F100R_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F100R_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F10K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "10k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F10K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129639CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "10k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Series" "CRGCQ" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Packaging" "Cut Tape (CT)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "±1%" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power (Watts)" "0.063W, 1/16W" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Composition" "Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Features" "Automotive AEC-Q200, Moisture Resistant" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Temperature Coefficient" "±100ppm/°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Operating Temperature" "-55°C ~{} 155°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package / Case" "0402 (1005 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Ratings" "AEC-Q200" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Supplier Device Package" "0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height - Seated (Max)" "0.016\" (0.40mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Number of Terminations" "2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Base Part Number" "CRGCQ0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 10K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F10K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F10K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F12K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "12k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "12 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Product Number" "CRGCQ0402F12K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129640CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 12K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F12K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F12K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F1K0" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "1k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F1K0" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129627CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "1k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Series" "CRGCQ" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Packaging" "Cut Tape (CT)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "±1%" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power (Watts)" "0.063W, 1/16W" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Composition" "Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Features" "Automotive AEC-Q200, Moisture Resistant" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Temperature Coefficient" "±100ppm/°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Operating Temperature" "-55°C ~{} 155°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package / Case" "0402 (1005 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Ratings" "AEC-Q200" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Supplier Device Package" "0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height - Seated (Max)" "0.016\" (0.40mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Number of Terminations" "2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Base Part Number" "CRGCQ0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 1K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F1K0_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F1K0_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F1K5" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "1.5k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "1.5 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F1K5" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129629CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 1.5K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F1K5_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F1K5_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F22K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "22k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F22K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129643CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 22K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F22K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F22K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F2K2" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "2.2k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F2K2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129631CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 2.2K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F2K2_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F2K2_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F330R" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "330" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F330R" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129621CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "330 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 330 OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F330R_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F330R_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F33K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "33k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "33 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F33K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129645CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "33k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Series" "CRGCQ" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Packaging" "Cut Tape (CT)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "±1%" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power (Watts)" "0.063W, 1/16W" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Composition" "Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Features" "Automotive AEC-Q200, Moisture Resistant" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Temperature Coefficient" "±100ppm/°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Operating Temperature" "-55°C ~{} 155°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package / Case" "0402 (1005 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Ratings" "AEC-Q200" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Supplier Device Package" "0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height - Seated (Max)" "0.016\" (0.40mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Number of Terminations" "2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Base Part Number" "CRGCQ0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 33K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F33K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F33K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F470R" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "470" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F470R" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129623CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 470 OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F470R_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F470R_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F68R" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "68" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "68 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F68R" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129613CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "68" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Series" "CRGCQ" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Packaging" "Cut Tape (CT)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "±1%" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power (Watts)" "0.063W, 1/16W" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Composition" "Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Features" "Automotive AEC-Q200, Moisture Resistant" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Temperature Coefficient" "±200ppm/°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Operating Temperature" "-55°C ~{} 155°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package / Case" "0402 (1005 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Ratings" "AEC-Q200" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Supplier Device Package" "0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height - Seated (Max)" "0.016\" (0.40mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Number of Terminations" "2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 68 OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F68R_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F68R_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F82K" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "82k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "CRGCQ 0402 82K 1%" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "8.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F82K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129650CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "82k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Series" "CRGCQ" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Packaging" "Cut Tape (CT)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "±1%" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power (Watts)" "0.063W, 1/16W" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Composition" "Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Features" "Automotive AEC-Q200, Moisture Resistant" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Temperature Coefficient" "±100ppm/°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Operating Temperature" "-55°C ~{} 155°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package / Case" "0402 (1005 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Ratings" "AEC-Q200" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Supplier Device Package" "0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height - Seated (Max)" "0.016\" (0.40mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Number of Terminations" "2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 82K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F82K_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F82K_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402F8K2" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "8.2k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "8.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402F8K2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A129638CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "8.2k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Series" "CRGCQ" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Packaging" "Cut Tape (CT)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "±1%" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power (Watts)" "0.063W, 1/16W" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Composition" "Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Features" "Automotive AEC-Q200, Moisture Resistant" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Temperature Coefficient" "±100ppm/°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Operating Temperature" "-55°C ~{} 155°C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package / Case" "0402 (1005 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Ratings" "AEC-Q200" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Supplier Device Package" "0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height - Seated (Max)" "0.016\" (0.40mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Number of Terminations" "2" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Base Part Number" "CRGCQ0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 8.2K OHM 1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402F8K2_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402F8K2_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402J4K7" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "4.7k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402J4K7" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A130052CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "4.7 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 4.7K OHM 5% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402J4K7_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402J4K7_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CRGCQ0402J4M7" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "4.7M" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "CRGCQ0402J4M7" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A130070CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "4.7 MOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 4.7M OHM 5% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CRGCQ0402J4M7_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "CRGCQ0402J4M7_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "R" (at -1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "R_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RQ73C1E1K13BTD" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "1.13k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20P%20B%20PDFs/RQ73-0618%20v2.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "1.13 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "RES 1.13 KOHMS 0.1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part Number" "RQ73C1E1K13BTD" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A140106CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 1.13 KOHMS 0.1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RQ73C1E1K13BTD_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "RQ73C1E1K13BTD_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RQ73C1E21K5BTD" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "21.5k" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20P%20B%20PDFs/RQ73-0618%20v2.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Detailed Description" "21.5 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "TE Connectivity Passive Product" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Product Number" "RQ73C1E21K5BTD" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digi-Key Part Number" "A140424CT-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "RES 21.5 KOHMS 0.1% 1/16W 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RQ73C1E21K5BTD_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "RQ73C1E21K5BTD_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "R_0402_1005Metric" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "R_0402_1005Metric" (at -1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor:R_0402_1005Metric" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic resistor 0402 (1005 metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "R_0402_1005Metric_0_1"
-      (polyline
-        (pts
-          (xy -3.556 2.54)
-          (xy -1.524 2.54)
-          (xy -1.524 -2.54)
-          (xy -3.556 -2.54)
-          (xy -3.556 2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "R_0402_1005Metric_1_1"
-      (pin passive line (at -2.54 3.81 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -3.81 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "CPF-A-0402B200RE"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "200"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 200 OHM 0.1% 1/16W 040202"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CPF-A-0402B200RE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "1712-CPF-A-0402B200RECT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "200 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CPF-A-0402B200RE_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CPF-A-0402B200RE_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CPF-A-0402B49K9E"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "49.9k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 49.9KOHM 0.1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "49.9 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CPF-A-0402B49K9E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "1712-CPF-A-0402B49K9ECT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CPF-A-0402B49K9E_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CPF-A-0402B49K9E_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CPF0402B499KE1"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "499k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CPF 0402 499K 0.1% 25PPM 1K RL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "499 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CPF0402B499KE1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "1712-CPF0402B499KE1CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CPF0402B499KE1_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CPF0402B499KE1_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CPF0402B5K1E1"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.1k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 5.1K OHM 0.1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "5.1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CPF0402B5K1E1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A102921CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CPF0402B5K1E1_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CPF0402B5K1E1_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRG0402F20K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 20K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "20 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRG0402F20K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "1712-CRG0402F20KCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRG0402F20K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRG0402F20K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRG0402F36K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "36k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic resistor 0402 (1005 metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "36 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRG0402F36K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "1712-CRG0402F36KCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RES SMD 36K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRG0402F36K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRG0402F36K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRG0402ZR"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CRG0402ZR"
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0 OHM JUMPER 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)  Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRG0402ZR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A106025CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0 Ohms"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Series" "CRG"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Cut Tape (CT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power (Watts)" "0.063W, 1/16W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~{} 155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Device Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height - Seated (Max)" "0.016\" (0.40mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Terminations" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Base Part Number" "CRG0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "Jumper"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRG0402ZR_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRG0402ZR_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F100K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F100K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129651CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F100K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F100K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F100R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F100R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129615CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F100R_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F100R_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F10K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F10K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129639CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Series" "CRGCQ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Cut Tape (CT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power (Watts)" "0.063W, 1/16W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Features" "Automotive AEC-Q200, Moisture Resistant"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~{} 155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "AEC-Q200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Device Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height - Seated (Max)" "0.016\" (0.40mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Terminations" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Base Part Number" "CRGCQ0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F10K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F10K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F10R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-2176337-1.datasheet.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10 OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F10R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129603CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "10 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F10R_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F10R_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F12K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "12k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 12K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "12 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRGCQ0402F12K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129640CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F12K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F12K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F1K0"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F1K0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129627CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Series" "CRGCQ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Cut Tape (CT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power (Watts)" "0.063W, 1/16W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Features" "Automotive AEC-Q200, Moisture Resistant"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~{} 155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "AEC-Q200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Device Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height - Seated (Max)" "0.016\" (0.40mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Terminations" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Base Part Number" "CRGCQ0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F1K0_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F1K0_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F1K5"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1.5k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1.5K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "1.5 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F1K5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129629CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F1K5_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F1K5_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F22K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 22K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F22K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129643CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F22K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F22K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F2K2"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 2.2K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F2K2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129631CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F2K2_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F2K2_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F330R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F330R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129621CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "330 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F330R_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F330R_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F33K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "33k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 33K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "33 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F33K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129645CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "33k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Series" "CRGCQ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Cut Tape (CT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power (Watts)" "0.063W, 1/16W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Features" "Automotive AEC-Q200, Moisture Resistant"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~{} 155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "AEC-Q200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Device Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height - Seated (Max)" "0.016\" (0.40mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Terminations" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Base Part Number" "CRGCQ0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F33K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F33K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F470R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 470 OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F470R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129623CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F470R_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F470R_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F68R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "68"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 68 OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "68 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F68R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129613CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "68"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Series" "CRGCQ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Cut Tape (CT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power (Watts)" "0.063W, 1/16W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Features" "Automotive AEC-Q200, Moisture Resistant"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±200ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~{} 155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "AEC-Q200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Device Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height - Seated (Max)" "0.016\" (0.40mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Terminations" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F68R_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F68R_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F82K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "82k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 82K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "8.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F82K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129650CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "82k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Series" "CRGCQ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Cut Tape (CT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power (Watts)" "0.063W, 1/16W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Features" "Automotive AEC-Q200, Moisture Resistant"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~{} 155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "AEC-Q200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Device Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height - Seated (Max)" "0.016\" (0.40mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Terminations" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F82K_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F82K_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402F8K2"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "8.2k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 8.2K OHM 1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "8.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402F8K2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A129638CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "8.2k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Series" "CRGCQ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Cut Tape (CT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power (Watts)" "0.063W, 1/16W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Composition" "Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Features" "Automotive AEC-Q200, Moisture Resistant"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~{} 155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "AEC-Q200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Device Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size / Dimension" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height - Seated (Max)" "0.016\" (0.40mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Terminations" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Base Part Number" "CRGCQ0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402F8K2_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402F8K2_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402J4K7"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 5% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402J4K7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A130052CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "4.7 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402J4K7_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402J4K7_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CRGCQ0402J4M7"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7M"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7M OHM 5% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0402J4M7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A130070CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "4.7 MOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CRGCQ0402J4M7_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CRGCQ0402J4M7_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R"
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RQ73C1E1K13BTD"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1.13k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20P%20B%20PDFs/RQ73-0618%20v2.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1.13 KOHMS 0.1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "1.13 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "RES 1.13 KOHMS 0.1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RQ73C1E1K13BTD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A140106CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RQ73C1E1K13BTD_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RQ73C1E1K13BTD_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RQ73C1E21K5BTD"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "21.5k"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20P%20B%20PDFs/RQ73-0618%20v2.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 21.5 KOHMS 0.1% 1/16W 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Detailed Description" "21.5 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RQ73C1E21K5BTD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "A140424CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RQ73C1E21K5BTD_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RQ73C1E21K5BTD_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_0402_1005Metric"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R_0402_1005Metric"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic resistor 0402 (1005 metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0402_1005Metric_0_1"
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy -3.556 -2.54) (xy -3.556 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_0402_1005Metric_1_1"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
