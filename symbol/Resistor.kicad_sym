@@ -46,7 +46,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 200 OHM 0.1% 1/16W 040202"
+		(property "Description" "RES SMD 200 OHM 0.1% 1/16W 0402"
 			(at 0 0 0)
 			(effects
 				(font
