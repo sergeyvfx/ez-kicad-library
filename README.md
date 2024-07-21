@@ -67,7 +67,7 @@ Content of `sym-lib-table` file:
   (lib (name "Crystal")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Crystal.kicad_sym")(options "")(descr ""))
   (lib (name "Diode")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Diode.kicad_sym")(options "")(descr ""))
   (lib (name "Inductor")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Inductor.kicad_sym")(options "")(descr ""))
-  (lib (name "Interface_Codecs")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Interface_Codecs.kicad_sym")(options "")(descr ""))
+  (lib (name "Interface_Codec")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Interface_Codec.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_Optical")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Interface_Optical.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_USB")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/Interface_USB.kicad_sym")(options "")(descr ""))
   (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/../../library/symbol/LED.kicad_sym")(options "")(descr ""))
