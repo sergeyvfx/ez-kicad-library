@@ -89,6 +89,7 @@ Content of `sym-lib-table` file:
 Content of `fp-lib-table` file:
 <pre>
 (fp_lib_table
+  (version 7)
   (lib (name "Interface_Optical")(type "KiCad")(uri "${KIPRJMOD}/../../library/footprint/Interface_Optical.pretty")(options "")(descr ""))
   (lib (name "Capacitor_Ceramic")(type "KiCad")(uri "${KIPRJMOD}/../../library/footprint/Capacitor_Ceramic.pretty")(options "")(descr ""))
   (lib (name "Capacitor_Electrolytic")(type "KiCad")(uri "${KIPRJMOD}/../../library/footprint/Capacitor_Electrolytic.pretty")(options "")(descr ""))
