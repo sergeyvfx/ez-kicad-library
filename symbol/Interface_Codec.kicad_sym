@@ -86,17 +86,6 @@
 			)
 		)
 		(symbol "WM8962BECSN/R_0_1"
-			(rectangle
-				(start -21.59 -1.27)
-				(end 20.32 -88.9)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -21.59 -62.23) (xy -3.81 -62.23)
@@ -243,6 +232,17 @@
 			)
 		)
 		(symbol "WM8962BECSN/R_1_1"
+			(rectangle
+				(start -21.59 -1.27)
+				(end 20.32 -88.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin output line
 				(at 22.86 -52.07 180)
 				(length 2.54)
