@@ -1,0 +1,3 @@
+This STEP model came from DigiKey's page for MM60-52B1-G1-R850 (670-2516-1-ND)
+
+https://www.digikey.nl/en/models/2504805
