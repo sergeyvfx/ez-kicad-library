@@ -1,0 +1,3 @@
+This STEP model came from DigiKey's page for NT1R3000 (670-2481-1-ND)
+
+https://www.digikey.nl/en/models/2385785
