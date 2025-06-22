@@ -1,0 +1,4 @@
+This STEP model came from the link in the datasheet.
+The component is Molex 0484060003, DigiKey part number WM10420-ND.
+
+https://www.molex.com/en-us/products/part-detail/484060003?display=pdf
